@@ -1,10 +1,10 @@
-package com.shoppingList
+package com.shoppingList.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import java.security.AccessControlContext
+import com.shoppingList.data.db.entities.ShoppingItem
 
 @Database(
     entities = [ShoppingItem::class],
